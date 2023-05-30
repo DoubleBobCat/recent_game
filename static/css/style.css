@@ -1,0 +1,134 @@
+.header {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 0;
+    width: 90%;
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-size: 43px;
+    background-color: #333333;
+}
+
+.button-row {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button-table {
+    width: 90%;
+    background-color: #333333;
+    border-radius: 5px;
+}
+
+.button-row button {
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    text-align: center;
+    width: 130px;
+    margin: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-color: #333333;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.button-row button:hover {
+    background-color: white;
+    color: #333333;
+    border: none;
+}
+
+.table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    width: 90%;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 20px;
+    text-align: center;
+    border: unset;
+    padding: 3px 5px 3px 5px;
+    border: 1px solid white;
+    border-spacing: 0;
+    background-color: #333333;
+    color: #ffffff;
+
+}
+
+td {
+    font-size: 20px;
+    border: 1px solid #333333;
+    text-align: center;
+    padding: 3px 5px 3px 5px;
+    border-spacing: 0;
+    font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #333333;
+    color: #FFF;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.end{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.end p{
+    width: 90%;
+    color: white;
+    text-align: center;
+    background-color: #333333;
+    border-radius: 5px;
+    margin: 5px 0 5px 0;
+    padding: 5px 0 5px 0;
+}
+
+.end a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.end a:hover {
+    background: white;
+    color: black;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
